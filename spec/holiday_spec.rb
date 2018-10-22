@@ -2,17 +2,17 @@ describe "holiday_supplies_hash" do
 # Hash of seasons, the holidays in them, and some items each holiday might have.
   let(:holiday_supplies) {
     {
-      :winter => {
+      :Winter => {
         :christmas => ["Lights", "Wreath"],
         :new_years => ["Party Hats"]
       },
-      :summer => {
+      :Summer => {
         :fourth_of_july => ["Fireworks", "BBQ"]
       },
-      :fall => {
+      :Fall => {
         :thanksgiving => ["Turkey"]
       },
-      :spring => {
+      :Spring => {
         :memorial_day => ["BBQ"]
       }
     }
