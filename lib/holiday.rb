@@ -78,7 +78,8 @@ def all_holidays_with_bbq(holiday_hash)
   holiday_hash.each do |season, holidays|
     holidays.each do |holiday, supplies|
       if supplies.include?("BBQ")
-        holiday << list
+        not_symbol = holiday.to_s
+        not_symbol << list
       end
     end
   end
