@@ -64,7 +64,7 @@ def all_supplies_in_holidays(holiday_hash)
         if humanized.include?("_")
           humanized = humanized.tr("_", " ").split.map(&:capitalize).join(' ')
           puts  "  #{humanized}: #{supplies.join(", " )}"
-        else 
+        else
           puts "  #{humanized.capitalize}: #{supplies.join(", " )}"
         end
       end
